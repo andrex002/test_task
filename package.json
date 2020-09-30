@@ -1,0 +1,19 @@
+{
+  "name": "Guestbook",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Тестовое задание 'Гостевая книга'",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "moment-locales-webpack-plugin": "1.2.0",
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+  },
+  "dependencies": {
+    "moment": "2.27.0"
+  }
+}
